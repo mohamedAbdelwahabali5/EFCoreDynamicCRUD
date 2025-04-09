@@ -34,8 +34,6 @@ namespace EFProject
             Utils.Utils.GenerateInsertFields(tableName, panelInputs, db, "Update");
         }
 
-
-
         private void updateBtn_Click(object sender, EventArgs e)
         {
             try
@@ -71,7 +69,7 @@ namespace EFProject
                 {
                     if (ctrl is TextBox textBox)
                     {
-                        string columnName = textBox.Name.Replace("txt_", ""); // نفس تسمية الـ Insert
+                        string columnName = textBox.Name.Replace("txt_", ""); 
                         var property = clrType.GetProperty(columnName);
 
                         if (property != null)
