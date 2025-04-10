@@ -39,7 +39,7 @@
             // 
             tables.BackColor = SystemColors.InactiveCaption;
             tables.FormattingEnabled = true;
-            tables.Location = new Point(139, 88);
+            tables.Location = new Point(114, 88);
             tables.Name = "tables";
             tables.Size = new Size(121, 23);
             tables.TabIndex = 0;
@@ -48,7 +48,7 @@
             // 
             crudOP.BackColor = SystemColors.MenuHighlight;
             crudOP.FormattingEnabled = true;
-            crudOP.Location = new Point(266, 88);
+            crudOP.Location = new Point(273, 88);
             crudOP.Name = "crudOP";
             crudOP.Size = new Size(121, 23);
             crudOP.TabIndex = 1;
@@ -57,7 +57,7 @@
             // 
             go.BackColor = Color.Teal;
             go.ForeColor = SystemColors.ControlLightLight;
-            go.Location = new Point(197, 161);
+            go.Location = new Point(198, 24);
             go.Name = "go";
             go.Size = new Size(109, 46);
             go.TabIndex = 2;
@@ -74,14 +74,14 @@
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(535, 274);
+            panel1.Size = new Size(535, 328);
             panel1.TabIndex = 3;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(535, 274);
+            ClientSize = new Size(535, 328);
             Controls.Add(panel1);
             Name = "Form1";
             Text = "Form1";
