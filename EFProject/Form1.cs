@@ -10,6 +10,26 @@ namespace EFProject
         {
             InitializeComponent();
             LoadData();
+
+          
+            this.BackColor = Color.FromArgb(240, 248, 255); 
+            this.Text = "Data Management"; 
+
+            tables.BackColor = Color.White;
+            tables.ForeColor = Color.Black;
+            tables.Font = new Font("Segoe UI", 12);
+
+            crudOP.BackColor = Color.White;
+            crudOP.ForeColor = Color.Black;
+            crudOP.Font = new Font("Segoe UI", 12);
+
+            // appearance of the button
+            go.BackColor = Color.FromArgb(0, 123, 255); 
+            go.ForeColor = Color.White;
+            go.FlatStyle = FlatStyle.Flat;
+            go.FlatAppearance.BorderSize = 0;
+            go.Font = new Font("Segoe UI", 14, FontStyle.Bold);
+            go.Size = new Size(150, 50); 
         }
 
 
@@ -31,9 +51,6 @@ namespace EFProject
         {
             string selectedTable = tables.SelectedItem?.ToString();
             string selectedOperation = crudOP.SelectedItem?.ToString();
-
-            
-
 
             Form targetForm = null;
 
